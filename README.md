@@ -27,6 +27,7 @@ This is a **billing system** built using **TypeScript**. It allows users to add 
 - Add multiple products to cart 
 - Add a feature to select quantity.
 - Cup size selection for beverages small/medium/large.
+- Calculate Total product bill.
 <!-- - Calculates total cost and applies 10% discount based on the billing amount.
 - Final bill summary with payment status -->
 
