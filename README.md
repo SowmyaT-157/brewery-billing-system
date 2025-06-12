@@ -17,6 +17,7 @@ This is a **billing system** built using **TypeScript**. It allows users to add 
       - [clone:](#clone)
   - [Contributing](#contributing)
   - [Contact](#contact)
+  - [Sample Output](#sample-output)
 
 ---
 
@@ -27,8 +28,8 @@ This is a **billing system** built using **TypeScript**. It allows users to add 
 - Add multiple products to cart 
 - Add a feature to select quantity.
 - Cup size selection for beverages small/medium/large.
-<!-- - Calculates total cost and applies 10% discount based on the billing amount.
-- Final bill summary with payment status -->
+- Calculates total cost and applies 10% discount based on the billing amount.
+- Final bill summary with payment status
 
 
 ---
@@ -82,6 +83,10 @@ This is a **billing system** built using **TypeScript**. It allows users to add 
 for any issues or in Queries ,contact Sowmya T_157
 
    https://github.com/SowmyaT-157
+
+## Sample Output
+![Output Screenshot](assert/output.png)
+
       
 
 
