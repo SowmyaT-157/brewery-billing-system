@@ -20,4 +20,14 @@ cart.forEach(item => {
   }
   console.log(`Total amount: ₹${amount}`);
 })
+let discount = 0;
+if (total > 1000) {
+  discount = total * 0.10;
+  total -= discount;
+  console.log(`\nDiscount Applied: ₹${discount}`);
+}
+console.log(`\nTotal Amount : ₹${total}`);
+const paid = prompt("\nPaid? (yes/no): ");
+console.log(paid?.toLowerCase() === 'yes' ? "Payment successful.." : "Payment pending.");
+console.log("see you again...")
 }
