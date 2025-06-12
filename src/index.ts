@@ -1,5 +1,5 @@
 import promptSync from "prompt-sync";
-
+import { Bill } from "./util/bill";
 import { ProductDetails,OrderItem} from "./interface/interface";
 import { productList,Display } from "./avai-product-data/data";
 import { producttype,productcategory,CupSize } from "./enums/enum";
@@ -56,4 +56,10 @@ while (true) {
   }
   cart.push({ product, quantity, cupSize });
   console.log(`${product.name} added to cart.`)
+   const choice = prompt("Do you want to add more products? (yes/Done): ").toLowerCase();
+  if (choice !== "yes") {
+    // continueToPurchase = false;
+    break;
+  }
 }
+Bill(cart)
