@@ -10,3 +10,8 @@ export enum productcategory {
     Desserts = "Desserts",
     Snacks = "Snacks",
 }
+export enum CupSize {
+  Small = "S",
+  Medium = "M",
+  Large = "L",
+}
