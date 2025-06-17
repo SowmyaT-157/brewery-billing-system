@@ -44,7 +44,7 @@ This is a **billing system** built using **TypeScript**. It allows users to add 
 1. To clone the project enter the below command in the terminal with the path you want to create your project folder.
 
 #### clone:
-    git@github.com:SowmyaT-157/Brewery.git
+    https://github.com/SowmyaT-157/brewery-billing-system
 2. To install dependencies 
  ```bash
     npm install -g typeScript
