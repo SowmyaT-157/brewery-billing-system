@@ -22,11 +22,9 @@ This is a **billing system** built using **TypeScript**. It allows users to add 
 ---
 
 ##  Features
-
-- Add initial main file.
-- Add a available product details like product name,product category,product type,price.
-- Add multiple products to cart 
-- Add a feature to select quantity.
+- Display available product details like product name,product category,product type,price.
+- User can add multiple products to the cart.
+- User can select quantity.
 - Cup size selection for beverages small/medium/large.
 - Calculates total cost and applies 10% discount based on the billing amount.
 - Final bill summary with payment status
@@ -47,8 +45,12 @@ This is a **billing system** built using **TypeScript**. It allows users to add 
 1. To clone the project enter the below command in the terminal with the path you want to create your project folder.
 
 #### clone:
-    git@github.com:SowmyaT-157/Brewery.git
+    https://github.com/SowmyaT-157/brewery-billing-system
 2. To install dependencies 
+ ```bash
+    npm install
+ ```
+- To install typescript package. 
  ```bash
     npm install -g typeScript
 ```
